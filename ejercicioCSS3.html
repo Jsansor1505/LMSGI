@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="José Sánchez Sorroche">
+        <meta name="description" content="Descripción de la página">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Ejercicio CSS 3</title>
+	<style>
+        div.cta-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: #3b141c;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100 px 100 px;
+                background-attachment:local;
+                padding: 100px;
+            }
+            h2.cta-text{
+                font-size: 28px;
+                font-weight: bond;
+                color: white;
+            }
+            p.cta-text{
+                font-size: 28px;
+                font-weight: bond;
+                color: white;
+            }
+            button.cta-button{
+                background-color: #f4a261;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 15px 30px;
+                border: none;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                font: arial;
+                font-weight: bold;
+            }
+            nav{
+                display: flex;
+                justify-content: space-between;
+                background-color:#3b141c;
+                padding: 10px;
+            }
+            nav h1{
+                color: orange;
+                margin-left: 20px;
+            }
+            .nav-list{
+                list-style-type: none;
+                gap: 18px;
+                flex-direction: row;
+                display: flex;
+                align-items: center;
+            }
+            .nav-list a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+            .nav-list button{
+                background-color: #f4a261;
+                border: none;
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 18px;
+                padding-right: 18px;
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: 20px;
+            }
+            .nav-list a:hover{
+                color: orange;
+            }
+    </style>
+    </head>
+    <body>
+        <nav>
+            <h1>Coffe</h1>
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios"><button>Servicios</button></a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="cta-container">
+            <h2 class="cta-text">¡Aprovecha nuestra oferta especial!</h2>
+            <p  class="cta-text">Hasta un 40% de descuento en productos seleccionados.</p>
+            <button class="cta-button">Descubrir Ofertas</button>
+        </div>
+    </body>
+</html>
