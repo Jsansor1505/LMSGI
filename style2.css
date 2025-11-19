@@ -2,23 +2,33 @@
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
+                background-color: black;
+                color:white;
         }
-        #gallery-section .section-title{
+        #menu-section h2.section-title{
                 text-align: center;
                 padding: 10px 0 30px;
                 font-size: 2rem;
         }
-        #gallery-section .gallery-list{
+        #menu-section .menu-list h1.section-title{
+                text-align: center;
+                font-size: 20px;
+        }
+        #menu-section .menu-list p.section-title{
+                text-align: center;
+                font-size: 10px;
+        }
+        #menu-section .menu-list{
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
                 gap: 32px;
         }
-        #gallery-section .gallery-list .gallery-item{
+        #menu-section .menu-list .menu-item{
                 width: calc(100%/3 - 32px);
         }
-        #gallery-section .gallery-list .gallery-item .gallery-image{
+        #menu-section .menu-list .menu-item .menu-image{
                 width: 100%;
                 height: 100%;
         }
