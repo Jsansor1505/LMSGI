@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    padding: 10px;
+}
+footer p{
+    color: white;
+    margin-left: 20px;
+}
+footer .footer-list{
+    list-style-type: none;
+    gap: 15px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+footer .footer-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
